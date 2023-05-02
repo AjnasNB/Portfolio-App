@@ -46,7 +46,7 @@ const About = () => {
               Technology. Dedicated to making a positive impact through teamwork, ethics, and a
               determination to succeed. I've been webdevelopment and software intern in varous companies like GTECH-Mulear, Xena Intelligence etc.</p>  
             </div>
-            <div>
+            <div className='flex lg:justify-center '>
             <a href='/portfolio'><button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
             View Works
             
