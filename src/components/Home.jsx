@@ -79,7 +79,7 @@ const Home = () => {
                     <a href="https://www.instagram.com/_a.jnas">
                       <FaInstagram className=" hover:text-red-400 focus:text-red-400 mr-8" />
                     </a>
-                    <a className="https://wa.me/+918590708633">
+                    <a href="https://wa.me/+918590708633">
                       <FaWhatsapp className=" hover:text-green-600 focus:text-green-500 " />
                     </a>
                   </div>
