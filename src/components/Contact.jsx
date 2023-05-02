@@ -38,18 +38,21 @@ const Contact = () => {
             placeholder="Name"
             name="name"
             className="bg-[#ccd6f6] p-2"
+            required
           />
           <input
             type="text"
             placeholder="Email"
             name="email"
             className="my-4 p-2 bg-[#ccd6f6] "
+            required
           />
           <textarea
             name="message"
             rows="10"
             placeholder="message"
             className="bg-[#ccd6f6] p-2"
+            required
           />
           <input
             type="text"
