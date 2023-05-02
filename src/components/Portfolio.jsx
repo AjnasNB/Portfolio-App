@@ -144,7 +144,7 @@ tracking-wider"
                   3-D Portfolio
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="threedportfolio.ajnasnb.me">
+                  <a href="https://threedportfolio.ajnasnb.me">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
@@ -172,7 +172,7 @@ tracking-wider"
                   React JS Application
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="youtube.ajnasnb.me">
+                  <a href="https://youtube.ajnasnb.me">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
