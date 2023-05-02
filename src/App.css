@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.stars {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  animation-name: twinkle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.star.bright {
+  opacity: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes twinkle {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes shooting-star {
   from {
-    transform: rotate(0deg);
+    opacity: 1;
+    transform: translateX(0%);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 0;
+    transform: translateX(75%);
   }
+}
+
+.content-div{
+  background-repeat:no-repeat ;
+  background-size:cover;
+  background-position: center;
+  height: 250px;;
+}
+.content-div:hover{
+  background-image:  linear-gradient(
+    to right,
+    rgba(112,157,244,.8),
+    hsla(242,74%,61%, .8)
+  )!important;
 }
