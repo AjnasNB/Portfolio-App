@@ -39,7 +39,7 @@ const Portfolio = () => {
             <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
               Works
             </p>
-            <p className="py-6">// Checkout my recent works</p>
+            <p className="py-6"> Checkout my recent works</p>
           </div>
           <div className="grid sm:grid-cols-2 md:grid-col-3 gap-8">
             {/*grid */}
