@@ -10,10 +10,10 @@ import Thankyou from "./components/Thankyou";
 
 function App() {
   return (
-    <div>
-    <nav style={{zIndex: "10"}}>
+    <>
+    
     <Navbar/>
-    </nav>
+    
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path='/thankyou' element={<Thankyou/>}/>
       </Routes>
-    </div>
+    </>
   );
 }
 
