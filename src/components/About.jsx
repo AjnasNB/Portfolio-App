@@ -48,7 +48,7 @@ const About = () => {
             </div>
             <div>
             <a href='/portfolio'><button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            View Work
+            View Works
             
           </button></a>
             </div>
