@@ -4,7 +4,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaTimes,
-  FaWhatsapp
+  FaWhatsapp,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -20,11 +20,21 @@ const Navbar = () => {
       </h1>
 
       <ul className="hidden md:flex">
-        <li><a href='/'>Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="/skills">Skills</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li>
+          <a href="127.0.0.1/">Home</a>
+        </li>
+        <li>
+          <a href="127.0.0.1/about">About</a>
+        </li>
+        <li>
+          <a href="127.0.0.1/portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="127.0.0.1/skills">Skills</a>
+        </li>
+        <li>
+          <a href="127.0.0.1/contact">Contact</a>
+        </li>
       </ul>
 
       {/*Hamburger */}
@@ -38,11 +48,21 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[gray] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl"><a href="/">Home</a></li>
-        <li className="py-6 text-4xl"><a href="/about">About</a></li>
-      <li className="py-6 text-4xl"><a href="/portfolio">Portfolio</a></li>
-      <li className="py-6 text-4xl"><a href="/skills">Skills</a></li>
-      <li className="py-6 text-4xl"><a href="/contact">Contact</a></li>
+        <li className="py-6 text-4xl">
+          <a href="127.0.0.1/">Home</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="127.0.0.1/about">About</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="127.0.0.1/portfolio">Portfolio</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="127.0.0.1/skills">Skills</a>
+        </li>
+        <li className="py-6 text-4xl">
+          <a href="127.0.0.1/contact">Contact</a>
+        </li>
       </ul>
 
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0  ">
