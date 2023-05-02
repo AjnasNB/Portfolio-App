@@ -45,7 +45,7 @@ const Home = () => {
                 <div class="ml-8">
                   <p></p>
                   <span>Hi👋,My Name is </span>
-                  <h1 className="lg:text-7xl text-xl/[45px] font-bold text-gray-950 whitespace-nowrap flex justify-center">
+                  <h1 className="lg:text-5xl text-xl/[45px] font-bold text-gray-950 whitespace-nowrap flex justify-center">
                     Ajnas N B
                   </h1>
                   <h2 className="lg:text-xl text-lg/[30px]  text-blue-950 flex justify-center font-bold whitespace-nowrap ">
