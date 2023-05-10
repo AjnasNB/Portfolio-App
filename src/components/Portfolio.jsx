@@ -144,7 +144,7 @@ tracking-wider"
                   3-D Portfolio
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="https://threedportfolio.ajnasnb.me">
+                  <a href="https://ajnasnb.netlify.app">
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Demo
                     </button>
