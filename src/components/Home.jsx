@@ -26,7 +26,7 @@ const Home = () => {
     }
   }, []);
   return (
-    <div className="stars" style={{backgroundColor:'#0a192f'}}>
+    <div className="stars" style={{ backgroundColor: "#0a192f" }}>
       <div
         name="home"
         className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center  text-white h-full"
@@ -62,14 +62,21 @@ const Home = () => {
                     </h3>
                   </div>
                   <div class="description-text"></div>
-                  <div className="flex justify-center">
+                  <div className="flex justify-center items-center">
                     <a href="https://drive.google.com/file/d/1MmejM9upDDTREeHyNbFMPaz-EO0-COKo/view?usp=sharing">
-                      <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full mt-4">
+                      <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full mt-4 mr-5">
                         View Resume
                       </button>
                     </a>
                   </div>
-                  <div className="lg:hidden flex justify-center mt-5 text-4xl">
+                  <div className="flex justify-center items-center lg:hidden">
+                    <a href="/portfolio">
+                      <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full mt-4 mr-5">
+                        View portfolio
+                      </button>
+                    </a>
+                  </div>
+                  <div className="lg:hidden flex justify-center mt-5 text-4xl ">
                     <a href="https://www.linkedin.com/in/ajnasnb">
                       <FaLinkedin className=" hover:text-blue-600 focus:text-blue-500 mr-8" />
                     </a>

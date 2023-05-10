@@ -47,7 +47,7 @@ const About = () => {
               determination to succeed. I've been webdevelopment and software intern in varous companies like GTECH-Mulear, Xena Intelligence etc.</p>  
             </div>
             <div className='flex lg:justify-center '>
-            <a href='/portfolio'><button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+            <a href='/portfolio'><button className='text-black group border-2 px-6 py-3 my-2 flex items-center bg-pink-600 hover:bg-pink-800 hover:border-pink-800 hover:text-white'>
             View Works
             
           </button></a>
