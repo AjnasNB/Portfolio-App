@@ -35,10 +35,8 @@ const Contact = () => {
           method="POST"
           className="flex flex-col max-w-[600px] w-full "
         >
-          
-            <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 ">
-              Contact
-            </p>
+          <div><p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 ">Contact</p></div>
+            
             <p className="text-gray-300 py-4">
               Submit the form below to contact with me or shoot me a mail using
               the link in the home
