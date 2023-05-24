@@ -34,7 +34,7 @@ const Home = () => {
   }}>
     <div name="Home" className="w-full md:h-screen   text-gray-300">
     <div className="max-w-[1000px] mx-auto  p-4 flex flex-col items-center justify-center ">
-      <div className="pb-8 pt-9 flex flex-col  justify-center items-center  ">
+      <div className="lg:pb-8 pt-9 flex flex-col  justify-center items-center   ">
         <div className="sm:mr-8 mb-8 sm:mb-0">
         <div class="bg-gray-900 rounded-full w-40 h-40 sm:w-64 sm:h-64 flex items-center justify-center">
         <img
