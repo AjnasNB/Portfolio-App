@@ -18,13 +18,20 @@ const About = () => {
       }, []);
     
   return (
-    <div className='stars'>
+    <div className='stars'
+    style={{ backgroundColor: "#0a192f" ,
+    minHeight: "100vh",
+    paddingTop: "50px",
+    background: "#0a192f",
+    overflow: "auto",
+  }}
+    >
     
-    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300 overflow-auto'>
-      <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right pb-8 pl-4 mt-[75px] lg:mt-0'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>
+    <div name="portfolio" className="w-full md:h-screen   text-gray-300">
+        <div className="max-w-[1000px] mx-auto  p-4 flex flex-col justify-center ">
+          <div className="pb-8 pt-9 ">
+            <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+            
               About
             </p>
           </div>
@@ -47,7 +54,7 @@ const About = () => {
               determination to succeed. I've been webdevelopment and software intern in varous companies like GTECH-Mulear, Xena Intelligence etc.</p>  
             </div>
             <div className='flex lg:justify-center '>
-            <a href='/portfolio'><button className='text-black group border-2 px-6 py-3 my-2 flex items-center bg-pink-600 hover:bg-pink-800 hover:border-pink-800 hover:text-white'>
+            <a href='/portfolio'><button className='text-black group border-2 px-6 py-3 my-2 flex items-center bg-white hover:bg-pink-900 hover:border-pink-800 hover:text-white'>
             View Works
             
           </button></a>
@@ -55,7 +62,7 @@ const About = () => {
           </div>
       </div>
     </div>
-    </div>
+    
   )
 }
 
