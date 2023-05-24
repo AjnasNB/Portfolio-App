@@ -17,22 +17,33 @@ const Contact = () => {
     }
   }, []);
   return (
-    <div className="stars">
-      <div className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 ">
-        <form
+    <div className="stars"
+    style={{
+      minHeight: "100vh",
+      paddingTop: "50px",
+      background: "#0a192f",
+      overflow: "auto",
+
+
+    }}
+    >
+    <div name="Contact" className="w-full md:h-screen   text-gray-300">
+      <div className=" bg-[#0a192f] flex justify-center items-center p-4 ">
+      <div className="pb-8 pt-9 "> 
+      <form
           action="https://getform.io/f/fff685ec-a824-4f7c-8cc8-fb8f909f2524"
           method="POST"
           className="flex flex-col max-w-[600px] w-full "
         >
-          <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300 ">
+          
+            <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 ">
               Contact
             </p>
             <p className="text-gray-300 py-4">
-              Submut the form below to contact with me or shoot me a mail using
+              Submit the form below to contact with me or shoot me a mail using
               the link in the home
             </p>
-          </div>
+          
           <input
             type="text"
             placeholder="Name"
@@ -64,6 +75,8 @@ const Contact = () => {
             Let's connect
           </button>
         </form>
+        </div>
+      </div>
       </div>
     </div>
   );
