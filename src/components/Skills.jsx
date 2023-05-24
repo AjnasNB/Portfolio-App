@@ -67,102 +67,102 @@ const Skills = () => {
 
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={html} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={html} alt="Ajnas N B skill icon" />
               <p className="my-4">HTML</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={css} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={css} alt="Ajnas N B skill icon" />
               <p className="my-4">CSS</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={js} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={js} alt="Ajnas N B skill icon" />
               <p className="my-4">JAVASCRIPT</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={tailwind} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={tailwind} alt="Ajnas N B skill icon" />
               <p className="my-4">TAILWIND</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={mongodb} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={mongodb} alt="Ajnas N B skill icon" />
               <p className="my-4">MONGO DB</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={express} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={express} alt="Ajnas N B skill icon" />
               <p className="my-4">EXPRESS JS</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={react} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={react} alt="Ajnas N B skill icon" />
               <p className="my-4">REACT</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={node} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={node} alt="Ajnas N B skill icon" />
               <p className="my-4">NODE JS</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={python} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={python} alt="Ajnas N B skill icon" />
               <p className="my-4">PYTHON</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={django} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={django} alt="Ajnas N B skill icon" />
               <p className="my-4">DJANGO</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={c} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={c} alt="Ajnas N B skill icon" />
               <p className="my-4">C</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={cpp} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={cpp} alt="Ajnas N B skill icon" />
               <p className="my-4">C++</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={java} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={java} alt="Ajnas N B skill icon" />
               <p className="my-4">JAVA</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={cs} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={cs} alt="Ajnas N B skill icon" />
               <p className="my-4">C#</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={unity} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={unity} alt="Ajnas N B skill icon" />
               <p className="my-4">UNITY</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={gml} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={gml} alt="Ajnas N B skill icon" />
               <p className="my-4">GML</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={mysql} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={mysql} alt="Ajnas N B skill icon" />
               <p className="my-4">MYSQL</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={firebase} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={firebase} alt="Ajnas N B skill icon" />
               <p className="my-4">FIREBASE</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={git} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={git} alt="Ajnas N B skill icon" />
               <p className="my-4">GIT</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={netlify} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={netlify} alt="Ajnas N B skill icon" />
               <p className="my-4">NETLIFY</p>
             </div>
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={aws} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={aws} alt="Ajnas N B skill icon" />
               <p className="my-4">AWS</p>
             </div>
 
             <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={heroku} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={heroku} alt="Ajnas N B skill icon" />
               <p className="my-4">HEROKU</p>
             </div>
           </div>
