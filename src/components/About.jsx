@@ -51,7 +51,7 @@ const About = () => {
               experience as the Secretary of Association of Computer Engineering Students and
               Student Coordinator of Startup Activities at Cochin University of Science and
               Technology. Dedicated to making a positive impact through teamwork, ethics, and a
-              determination to succeed. I've been webdevelopment and software intern in varous companies like GTECH-Mulear, Xena Intelligence etc.</p>  
+              determination to succeed. I've been webdevelopment and software intern in varous companies like GTECH-Mulearn, Xena Intelligence etc.</p>  
             </div>
             <div className='flex lg:justify-center '>
             <a href='/portfolio'><button className='text-black group border-2 px-6 py-3 my-2 flex items-center bg-white hover:bg-pink-900 hover:border-pink-800 hover:text-white'>
