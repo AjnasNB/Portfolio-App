@@ -76,7 +76,7 @@ const Home = () => {
                       </h3>
                     </div>
                     <div class="flex justify-center items-center">
-                      <a href="https://bit.ly/ajnas_resume">
+                      <a href="https://bit.ly/Resume_Ajnas">
                         <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full mt-4 mr-5">
                           View Resume
                         </button>
