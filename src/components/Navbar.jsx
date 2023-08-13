@@ -8,15 +8,16 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import logo from '../assets/logo/logo ajnas.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[gray] text-black-300 z-[10]">
-      <h1 className=" lg:flex  border-black margin-left-[30px] font-bold text-xl text-blue ">
-        Portfolio <br />
-        Website
+      <h1 className="   border-black  font-bold text-xl text-blue ">
+        <img src={logo} className="h-[50px] w-auto ml-3"/>
+       Ajnas N B
       </h1>
 
       <ul className="hidden md:flex">
@@ -28,7 +29,7 @@ const Navbar = () => {
       </ul>
 
       {/*Hamburger */}
-      <div className="md:hidden  z-10 " onClick={handleClick}>
+      <div className="md:hidden  z-10" onClick={handleClick}>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       <ul
