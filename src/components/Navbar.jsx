@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[gray] text-black-300 z-[10]">
       <h1 className="   border-black  font-bold text-xl text-blue ">
-        <img src={logo} className="h-[50px] w-auto ml-3"/>
+        <img alt="logo" src={logo} className="h-[50px] w-auto ml-3"/>
        Ajnas N B
       </h1>
 
