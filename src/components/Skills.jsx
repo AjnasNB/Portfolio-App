@@ -23,6 +23,31 @@ import netlify from "../assets/icons/netlify.png";
 import aws from "../assets/icons/aws.png";
 import heroku from "../assets/icons/heroku.png";
 
+const skillData = [
+  { icon: html, name: "HTML" },
+  { icon: css, name: "CSS" },
+  { icon: js, name: "JAVASCRIPT" },
+  { icon: tailwind, name: "TAILWIND" },
+  { icon: mongodb, name: "MONGO DB" },
+  { icon: express, name: "EXPRESS JS" },
+  { icon: react, name: "REACT" },
+  { icon: node, name: "NODE JS" },
+  { icon: git, name: "GIT" },
+  { icon: firebase, name: "FIREBASE" },
+  { icon: python, name: "PYTHON" },
+  { icon: django, name: "DJANGO" },
+  { icon: c, name: "C" },
+  { icon: cpp, name: "C++" },
+  { icon: java, name: "JAVA" },
+  { icon: cs, name: "C#" },
+  { icon: gml, name: "GML" },
+  { icon: unity, name: "UNITY" },
+  { icon: mysql, name: "MYSQL" },
+  { icon: netlify, name: "NETLIFY" },
+  { icon: aws, name: "AWS" },
+  { icon: heroku, name: "HEROKU" }
+];
+
 const Skills = () => {
   useEffect(() => {
     const starsContainer = document.querySelector(".stars");
@@ -42,134 +67,26 @@ const Skills = () => {
 
   return (
     <div>
-      {/* Navbar */}
-
-      {/* Content */}
-      <div
-        className="stars"
-        style={{
-          minHeight: "100vh",
-          paddingTop: "50px",
-          background: "#0a192f",
-          overflow: "auto",
-        }}
-      >
-        {/* Container */}
-        <div name="portfolio" className="w-full md:h-screen   text-gray-300">
-        <div className="max-w-[1000px] mx-auto  p-4 flex flex-col justify-center ">
-          <div className="pb-8 pt-9 ">
-            <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
-            
-              Skills
-            </p>
-            <p className="py-4">These are the technologies I've worked with</p>
-          </div>
-
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={html} alt="Ajnas N B skill icon" />
-              <p className="my-4">HTML</p>
+      <div className="stars" style={{ minHeight: "100vh", paddingTop: "50px", background: "#0a192f", overflow: "auto" }}>
+        <div name="portfolio" className="w-full md:h-screen text-gray-300">
+          <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center">
+            <div className="pb-8 pt-9">
+              <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">Skills</p>
+              <p className="py-4">These are the technologies I've worked with</p>
             </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={css} alt="Ajnas N B skill icon" />
-              <p className="my-4">CSS</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={js} alt="Ajnas N B skill icon" />
-              <p className="my-4">JAVASCRIPT</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={tailwind} alt="Ajnas N B skill icon" />
-              <p className="my-4">TAILWIND</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={mongodb} alt="Ajnas N B skill icon" />
-              <p className="my-4">MONGO DB</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={express} alt="Ajnas N B skill icon" />
-              <p className="my-4">EXPRESS JS</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={react} alt="Ajnas N B skill icon" />
-              <p className="my-4">REACT</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={node} alt="Ajnas N B skill icon" />
-              <p className="my-4">NODE JS</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={python} alt="Ajnas N B skill icon" />
-              <p className="my-4">PYTHON</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={django} alt="Ajnas N B skill icon" />
-              <p className="my-4">DJANGO</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={c} alt="Ajnas N B skill icon" />
-              <p className="my-4">C</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={cpp} alt="Ajnas N B skill icon" />
-              <p className="my-4">C++</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={java} alt="Ajnas N B skill icon" />
-              <p className="my-4">JAVA</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={cs} alt="Ajnas N B skill icon" />
-              <p className="my-4">C#</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={unity} alt="Ajnas N B skill icon" />
-              <p className="my-4">UNITY</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={gml} alt="Ajnas N B skill icon" />
-              <p className="my-4">GML</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={mysql} alt="Ajnas N B skill icon" />
-              <p className="my-4">MYSQL</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={firebase} alt="Ajnas N B skill icon" />
-              <p className="my-4">FIREBASE</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={git} alt="Ajnas N B skill icon" />
-              <p className="my-4">GIT</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={netlify} alt="Ajnas N B skill icon" />
-              <p className="my-4">NETLIFY</p>
-            </div>
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={aws} alt="Ajnas N B skill icon" />
-              <p className="my-4">AWS</p>
-            </div>
-
-            <div className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={heroku} alt="Ajnas N B skill icon" />
-              <p className="my-4">HEROKU</p>
+            <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+              {skillData.map((skill, index) => (
+                <div key={index} className="shadow-md shadow-[#5d8dc9] hover:scale-110 duration-500">
+                  <img className="w-20 mx-auto" src={skill.icon} alt={`${skill.name} icon`} />
+                  <p className="my-4">{skill.name}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
   );
 };
+
 export default Skills;
