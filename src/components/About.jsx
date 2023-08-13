@@ -41,7 +41,7 @@ const About = () => {
             <div className='sm:text-right text-4xl font-bold'>
               <p>Hi. I'm Ajnas N B, nice to meet you. Please take a look around.</p>
             </div>
-            <div>
+            <div className='text-xl'>
               <p>I am a tech-savvy computer engineer with a passion for leadership, innovation, and hands-on
               learning through hackathons, workshops, and organizing events. A highly motivated and
               detail-oriented computer engineering student with a wealth of technical skills, including
