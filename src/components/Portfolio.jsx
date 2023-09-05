@@ -69,7 +69,7 @@ const Portfolio = () => {
             <Project title="Brick Game" demoLink="https://gx.games/games/bmh0af/motor-control-training/tracks/566c2c6c-3632-47e3-8219-eafb38562059/" codeLink="https://github.com/AjnasNB/Brick-Game-new-version" backgroundImage={brickgame} />
             <Project title="Youtube clone Application" demoLink="https://youtube.ajnasnb.me" codeLink="https://github.com/AjnasNB/Youtube-clone" backgroundImage={youtube} />
             <Project title="Smasher Game" demoLink="" codeLink="https://github.com/AjnasNB/Game-Smasher" backgroundImage={smasher} />
-            <Project title="Unity Game Application" codeLink="https://github.com/AjnasNB/Connect-game" backgroundImage={connect} />
+            <Project title="Unity Puzzle Application" codeLink="https://github.com/AjnasNB/Connect-game" backgroundImage={connect} />
           </div>
         </div>
       </div>
