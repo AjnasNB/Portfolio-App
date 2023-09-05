@@ -7,6 +7,11 @@ import smasher from "../assets/projects/game2.png";
 import three from "../assets/projects/3dportfolio.png";
 import connect from "../assets/projects/connectgame.png";
 import portfolio from "../assets/projects/portfolio.png";
+import brickgame from "../assets/projects/brick-game.png";
+import crslp from '../assets/projects/crs-landingpage.png'
+import crsrpt from '../assets/projects/crs-reporting-page.png'
+import weather from '../assets/projects/weatherapp.png'
+import sqlmagic from '../assets/projects/sqlmagic.png'
 
 const Portfolio = () => {
   useEffect(() => {
@@ -53,12 +58,17 @@ const Portfolio = () => {
             <p className="py-6">Checkout my recent works</p>
           </div>
           <div className="grid sm:grid-cols-2 md:grid-col-3 gap-8">
-            <Project title="Portfolio App" demoLink="https://ajnasnb.me" codeLink="https://github.com/AjnasNB/Portfolio-App" backgroundImage={portfolio} />
+            <Project title="CRS-Landing page" demoLink="https://64be33d64bb2043828a94160--kaleidoscopic-moonbeam-ba60dd.netlify.app/" codeLink="https://github.com/AjnasNB/Landing_Page" backgroundImage={crslp} />
+            <Project title="CRS-Report-Page" demoLink="https://celadon-pie-c9de0e.netlify.app/" codeLink="https://github.com/AjnasNB/CRS_Frontend" backgroundImage={crsrpt}/>
+            <Project title="Portfolio App" demoLink="https://ajnasnb.me" codeLink="https://github.com/AjnasNB/Portfolio-App" backgroundImage={portfolio}/>
+            <Project title="SQL Magic" demoLink="https://sqlmagic.netlify.app/" codeLink="https://github.com/AjnasNB/SQL-Magic--frontend" backgroundImage={sqlmagic}/>
+            <Project title="Weather App" demoLink="https://weather.ajnasnb.me" codeLink="https://github.com/AjnasNB/Weather-app" backgroundImage={weather}/>
             <Project title="Fitness Gym App" demoLink="https://gym.ajnasnb.me" codeLink="https://github.com/AjnasNB/Fitness-World-Gym-App" backgroundImage={gym} />
             <Project title="Game Application" demoLink="https://gx.games/games/0fi62k/weight-balance-game/tracks/cefa2daa-c176-4748-8420-ebefc12d681e" codeLink="https://github.com/AjnasNB/Game-for-differently-abled" backgroundImage={balance} />
             <Project title="3-D Portfolio" demoLink="https://ajnasnb.netlify.app" codeLink="https://github.com/AjnasNB/3D-portfolio" backgroundImage={three} />
-            <Project title="React JS Application" demoLink="https://youtube.ajnasnb.me" codeLink="https://github.com/AjnasNB/Youtube-clone" backgroundImage={youtube} />
-            <Project title="Game Application" codeLink="https://github.com/AjnasNB/Game-Smasher" backgroundImage={smasher} />
+            <Project title="Brick Game" demoLink="https://gx.games/games/bmh0af/motor-control-training/tracks/566c2c6c-3632-47e3-8219-eafb38562059/" codeLink="https://github.com/AjnasNB/Brick-Game-new-version" backgroundImage={brickgame} />
+            <Project title="Youtube clone Application" demoLink="https://youtube.ajnasnb.me" codeLink="https://github.com/AjnasNB/Youtube-clone" backgroundImage={youtube} />
+            <Project title="Smasher Game" demoLink="" codeLink="https://github.com/AjnasNB/Game-Smasher" backgroundImage={smasher} />
             <Project title="Unity Game Application" codeLink="https://github.com/AjnasNB/Connect-game" backgroundImage={connect} />
           </div>
         </div>
