@@ -65,7 +65,7 @@ const Home = () => {
                         <p>🏢 Based in Kochi, Kerala</p>
                         <p class="flex">
                           <FaPython className="mr-2 text-yellow-400 text-3xl" />{" "}
-                          Python developer with 2 years of experience
+                          Javascript developer with 2 years of experience
                         </p>
                       </h3>
                     </div>
