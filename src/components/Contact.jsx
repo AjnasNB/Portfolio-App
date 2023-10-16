@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
 import "../App.css";
+import Ad from './Adsense'
+
 const Contact = () => {
   useEffect(() => {
+
     const starsContainer = document.querySelector(".stars");
     const numStars = 100;
     const starRadius = 1;
@@ -74,6 +77,7 @@ const Contact = () => {
               </button>
             </form>
           </div>
+          <Ad />
         </div>
       </div>
     </div>
