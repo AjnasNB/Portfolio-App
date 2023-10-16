@@ -3,8 +3,13 @@ import "../App.css";
 import Ad from './Adsense'
 
 const Contact = () => {
-  useEffect(() => {
+  const redirectToMail = () => {
+    const email = 'firecreato7717@gmail.com';
+    const subject = 'Contacting Ajnas with portfolio';
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+  };
 
+  useEffect(() => {
     const starsContainer = document.querySelector(".stars");
     const numStars = 100;
     const starRadius = 1;
@@ -19,6 +24,7 @@ const Contact = () => {
       starsContainer.appendChild(star);
     }
   }, []);
+
   return (
     <div className="stars"
       style={{
@@ -26,8 +32,6 @@ const Contact = () => {
         paddingTop: "50px",
         background: "#0a192f",
         overflow: "auto",
-
-
       }}
     >
       <div name="Contact" className="w-full md:h-screen   text-gray-300">
@@ -49,30 +53,34 @@ const Contact = () => {
                 type="text"
                 placeholder="Name"
                 name="name"
-                className="bg-[#ccd6f6] p-2"
+                className="bg-[#ccd6f6] p-2 text-black"
                 required
+
               />
               <input
                 type="text"
                 placeholder="Email"
                 name="email"
-                className="my-4 p-2 bg-[#ccd6f6] "
+                className="my-4 p-2 text-black bg-[#ccd6f6] "
                 required
               />
               <textarea
                 name="message"
                 rows="10"
                 placeholder="message"
-                className="bg-[#ccd6f6] p-2"
+                className="bg-[#ccd6f6] p-2 text-black"
                 required
               />
               <input
                 type="text"
                 name="link"
                 placeholder="Enter your resume link"
-                className="bg-[#ccd6f6] p-2 my-4"
+                className="bg-[#ccd6f6] p-2 text-black my-4"
               />
-              <button className="text-white border-2  hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center ">
+              <button
+                className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center"
+                onClick={redirectToMail}
+              >
                 Let's connect
               </button>
             </form>
