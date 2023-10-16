@@ -59,10 +59,10 @@ const Portfolio = () => {
           </div>
           <div className="grid sm:grid-cols-2 md:grid-col-3 gap-8">
             <Project title="CRS-Landing page" demoLink="https://64be33d64bb2043828a94160--kaleidoscopic-moonbeam-ba60dd.netlify.app/" codeLink="https://github.com/AjnasNB/Landing_Page" backgroundImage={crslp} />
-            <Project title="CRS-Report-Page" demoLink="https://celadon-pie-c9de0e.netlify.app/" codeLink="https://github.com/AjnasNB/CRS_Frontend" backgroundImage={crsrpt}/>
-            <Project title="Portfolio App" demoLink="https://ajnasnb.me" codeLink="https://github.com/AjnasNB/Portfolio-App" backgroundImage={portfolio}/>
-            <Project title="SQL Magic" demoLink="https://sqlmagic.netlify.app/" codeLink="https://github.com/AjnasNB/SQL-Magic--frontend" backgroundImage={sqlmagic}/>
-            <Project title="Weather App" demoLink="https://weather.ajnasnb.me" codeLink="https://github.com/AjnasNB/Weather-app" backgroundImage={weather}/>
+            <Project title="CRS-Report-Page" demoLink="https://celadon-pie-c9de0e.netlify.app/" codeLink="https://github.com/AjnasNB/CRS_Frontend" backgroundImage={crsrpt} />
+            <Project title="Portfolio App" demoLink="https://ajnasnb.live" codeLink="https://github.com/AjnasNB/Portfolio-App" backgroundImage={portfolio} />
+            <Project title="SQL Magic" demoLink="https://sqlmagic.netlify.app/" codeLink="https://github.com/AjnasNB/SQL-Magic--frontend" backgroundImage={sqlmagic} />
+            <Project title="Weather App" demoLink="https://weather.ajnasnb.me" codeLink="https://github.com/AjnasNB/Weather-app" backgroundImage={weather} />
             <Project title="Fitness Gym App" demoLink="https://gym.ajnasnb.me" codeLink="https://github.com/AjnasNB/Fitness-World-Gym-App" backgroundImage={gym} />
             <Project title="Game Application" demoLink="https://gx.games/games/0fi62k/weight-balance-game/tracks/cefa2daa-c176-4748-8420-ebefc12d681e" codeLink="https://github.com/AjnasNB/Game-for-differently-abled" backgroundImage={balance} />
             <Project title="3-D Portfolio" demoLink="https://ajnasnb.netlify.app" codeLink="https://github.com/AjnasNB/3D-portfolio" backgroundImage={three} />
